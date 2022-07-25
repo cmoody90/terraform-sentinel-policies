@@ -14,10 +14,10 @@ module "azure-functions" {
     source = "./azure-functions/azure-functions.sentinel"
 }
 
-policy "enforce-mandatory-tags" {
-    source = "./enforce-mandatory-tags.sentinel"
-    enforcement_level = "soft-mandatory"
-}
+# policy "enforce-mandatory-tags" {
+#     source = "./enforce-mandatory-tags.sentinel"
+#     enforcement_level = "soft-mandatory"
+# }
 
 # policy "require-database-auditing" {
 #     source = "./require-database-auditing.sentinel"
