@@ -15,7 +15,9 @@ param resource_types default [
 ]
 
 # List of mandatory tags
-param mandatory_tags default ["environment"]
+param mandatory_tags default [
+"environment,"
+]
 
 # Get all Azure Resources with standard tags
 allAzureResourcesWithStandardTags =
