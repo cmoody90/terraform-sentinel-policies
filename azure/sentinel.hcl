@@ -21,7 +21,7 @@ policy "restrict-vm-size" {
 
 policy "enforce-mandatory-tags" {
     source = "./enforce-mandatory-tags.sentinel"
-    enforcement_level = "soft-mandatory"
+    enforcement_level = "hard-mandatory"
 }
 
 # policy "require-database-auditing" {
