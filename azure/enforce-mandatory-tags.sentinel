@@ -11,12 +11,12 @@ import "azure-functions" as azure
 
 # List of Azure resources that are required to have name/value tags.
 param resource_types default [
-  "azurerm_virtual_machine,"
+  "azurerm_virtual_machine"
 ]
 
 # List of mandatory tags
 param mandatory_tags default [
-  "environment", "creator"
+  "environment"
 ]
 
 # Get all Azure Resources with standard tags
